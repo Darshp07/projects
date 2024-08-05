@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+	font-family: inherit, sans-serif;
+	font-style: inherit;
+	border: 2px solid rgba(112, 55, 99, .7);
+	width: 40%;
+	margin: 0 auto;
+	padding: auto;
+	box-shadow: 10px 5px 20px rgba(10, 20, 30, 0.1);
+	background-color: rgba(60,23,22,.1);
+	
+
+}
+
+
+table {
+	width: 100%;
+	background: rgba(250, 55, 12, .27);
+	
+	
+}
+
+td {
+	padding: 6px;
+	
+	
+}
+
+input[type="text"], input[type="email"], input[type="password"],
+	textarea, select {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-left: 5%;
+}
+
+input[type="submit"] {
+	width: 30%;
+	padding: 10px;
+	background-color: rgba(76, 175, 80, 0.5);
+	border-radius: 20%;
+}
+
+input[type="submit"]:hover {
+	background-color: rgba(250, 15, 40, .7);
+}

@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.body {
+	display: flex;
+	align-items: center;
+	border: 2px solid rgba(121, 342, 33, 0.1);
+}
+
+form {
+	display: flex;
+	padding-left: 40%;
+	align-items: center;
+
+}
+
+table {
+	align: center:     
+    border: 1px solid rgba(11, 22, 33, .4);
+	margin: 20px;
+}
+
+button{
+	margin-left:45%;
+
+}
